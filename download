@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# User data: HAR captures and exported backups
+*.har
+datos_*.json
+*.xlsx
+*.csv
+
+# Tooling
+node_modules/
+.pytest_cache/
+.coverage
